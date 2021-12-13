@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  **/
 @org.springframework.web.bind.annotation.RestController
 @RequestMapping("/test")
-public class RestController {
+public class TestController {
 
     @GetMapping("/test")
     public Entity test(){
